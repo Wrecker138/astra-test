@@ -1,0 +1,27 @@
+body {
+    margin: 0
+}
+
+.app {
+    background-image: url('/side-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.app__content {
+    background-image: url('/background-screen.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50vw;
+    margin: 0 auto;
+    min-height: inherit;
+}
+
+.window {
+    background-image: url("/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 370px;
+    height: 45vh;
+}

@@ -1,0 +1,8 @@
+.button button{
+    display: inline-block;
+    background-color: khaki;
+    padding:  6px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 4px;
+}

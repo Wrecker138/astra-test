@@ -1,0 +1,47 @@
+.header {
+    position: relative;
+}
+
+.header__timer {
+    display: flex;
+    position: absolute;
+    left: 47%;
+    bottom: 0px;
+    transform: translate(-47%, 0px);
+}
+
+.header__item {
+    color: #ffff;
+    margin-right: 36px;
+    position: relative;
+
+}
+
+.header__item::after {
+    color: #ffff;
+    position: absolute;
+    content: ':';
+    font-weight: 700;
+    font-size: 32px;
+    right: -22px;
+    top: 0px;
+}
+
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__item:last-child::after {
+    content: none;
+}
+
+.header__time {
+    font-size: 32px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.header__caption {
+    font-size: 16px;
+}
